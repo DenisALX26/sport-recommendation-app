@@ -1,0 +1,29 @@
+.contact-info {
+  height: 100vh;
+  overflow: hidden;
+  margin: 100px 0px;
+  gap: 40px;
+  .social-media {
+    border-radius: 32px;
+    padding: 71px 85px;
+    border: 3px solid rgb(0, 0, 0, 50%);
+    a {
+      color: $contact-page-button;
+      cursor: pointer;
+      &:hover {
+        color: $contact-page-button-hover;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    gap: 30px;
+  }
+  #instagram,
+  #linkedin,
+  #twitter {
+    border-radius: 32px;
+    @media (max-width: 768px) {
+      padding: 51px 65px;
+    }
+  }
+}

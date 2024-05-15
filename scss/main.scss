@@ -1,0 +1,11 @@
+@import "./config", "./variables", "./header", "./title-area", "./accordion",
+  "./footer", "./contact", "./share", "./test";
+
+html {
+  background-color: $white;
+  font-size: 16px;
+}
+
+.main {
+  background-color: $white;
+}
